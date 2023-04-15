@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4291f29b8b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="index.js"></script>
+</head>
+
+<body>
+    <div class="sidenav">
+        <a href="#home">Home</a>
+        <button id="scalesDropdownBtn" class="dropdown-btn">Scales
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+
+        </div>
+        <button id="chordsDropdownBtn" class="dropdown-btn">Chords
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+
+        </div>
+        <a href="#contact">Search</a>
+    </div>
+    <main>
+        <div class="cof-canvas">
+            <canvas id="cofCanvas" style="margin: auto"></canvas>
+        </div>
+        <div class="piano-canvas">
+            <canvas id="pianoCanvas" style="margin: auto"></canvas>
+        </div>
+        <div class="staff-canvas">
+            <canvas id="staffCanvas" style="margin: auto"></canvas>
+        </div>
+    </main>
+    <!--Will be rendered dynamically-->
+</body>
+
+</html>
