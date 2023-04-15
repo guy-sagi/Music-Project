@@ -2,7 +2,7 @@ import CofCanvasUtils from "./Canvas/CofCanvasUtils.js";
 import PianoCanvasUtils from "./Canvas/PianoCanvasUtils.js";
 import MusicUtils from "./utils/MusicUtils.js";
 import AudioUtils from "./utils/AudioUtils.js";
-import CNSTS from "../src/modules/Constants.js"
+import CNSTS from "./modules/Constants.js"
 
 const cofCnsts = CNSTS.cofCnsts;
 const pianoCnsts = CNSTS.pianoCnsts;

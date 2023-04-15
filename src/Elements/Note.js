@@ -13,7 +13,7 @@ class Note {
         this.staffVal = staffVal;
         this.type = type;
         this.octave = octave;
-        this.sound = new Audio(`./Sounds/${value}.mp3`);
+        this.sound = new Audio(`./sounds/${value}.mp3`);
     }
 }
 

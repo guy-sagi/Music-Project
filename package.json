@@ -1,12 +1,20 @@
 {
   "name": "music-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guy-sagi/Music-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guy-sagi/Music-Project/issues"
+  },
+  "homepage": "https://github.com/guy-sagi/Music-Project#readme",
+  "description": ""
 }
