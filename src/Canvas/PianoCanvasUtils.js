@@ -20,8 +20,6 @@ const blackKeysElements = [];
 const paths = [];
 
 function setupElements() {
-    /*const whiteKeysLabels = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
-    const blackKeysLabels = ['C♯', 'D♯', 'F♯', 'G♯', 'A♯'];*/
     const noBlackKeysNextTo = [2, 6, 9, 13];
     let id = 0;
     let numOfBlackKeys = 0;
@@ -90,10 +88,10 @@ function strokePianoBody() {
 }
 
 function addHeaderText(text) {
-    ctx.font = "20pt Arial";
+    ctx.font = pianoCnsts.PIANO_WIDTH / 30 + "pt Arial";
     ctx.fillStyle = 'pink';
     ctx.textAlign = "center";
-    ctx.fillText(text, 200, 37.5);
+    ctx.fillText(text, pianoCnsts.PIANO_WIDTH / 2, pianoCnsts.PIANO_HEIGHT / 5.5);
 }
 
 function strokeWhiteKey(element) {

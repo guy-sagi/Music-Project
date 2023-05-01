@@ -19,8 +19,8 @@ export const cofCnsts = {
 
 export const pianoCnsts = {
     TITLE: "",/*"My piano",*/
-    PIANO_WIDTH: 400,
-    PIANO_HEIGHT: 400/3,
+    PIANO_WIDTH: 600,
+    PIANO_HEIGHT: 200,
     DEFAULT_WHITEKEY_COLOR: "white",
     DEFAULT_BLACKKEY_COLOR: "black",
     HOVER_WHITEKEY_COLOR: "pink",
